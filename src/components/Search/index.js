@@ -6,7 +6,9 @@ import { useState } from "react";
 import { locationSearch, hotelSearch, restaurantSearch, attractionSearch } from './api'
 import LoadingIcon from "./LoadingIcon";
 
-localStorage.setItem("userSearch", JSON.stringify([]));
+if (localStorage.getItem("userSearch") === null) {
+    localStorage.setItem("userSearch",JSON.stringify([]));
+}
 
 const Search = () => {
     const [cityValue, setCityValue] = useState("");
@@ -16,6 +18,7 @@ const Search = () => {
     const apiQuery = query =>{
         console.log("searching...");
         setLoading(!isLoading);
+        localStorage.setItem("userSearch",JSON.stringify([]));
 
         locationSearch(query)
         .then(res => setLocationData(res))      

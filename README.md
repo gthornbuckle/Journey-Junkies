@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a travel application created as part of my final group project during my coding skills bootcamp. This project was created using the React library alongside various components and APIs.
 
-In the project directory, you can run:
+Components:
 
-### `npm start`
+* [React Router](https://reactrouter.com/en/main)
+* [Leaflet](https://www.npmjs.com/package/leaflet)
+* [Framer Motion](https://www.framer.com/motion/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+APIs:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Travel Advisor](https://rapidapi.com/apidojo/api/travel-advisor)
+* [Open Street Maps](https://wiki.openstreetmap.org/wiki/API)
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Installation](#installation)
 
-### `npm run build`
+* [Usage](#usage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Contributing](#contributing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Tests](#tests)
 
-### `npm run eject`
+* [Page preview](#page-preview)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [Questions](#questions)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+n/a
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+Please follow the link to the deployed page: [Journey Junkies](https://gthornbuckle-journeyjunkies.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under: MIT License
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+n/a
 
-### Analyzing the Bundle Size
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To test this project, please run the command:
 
-### Making a Progressive Web App
+n/a
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Page Preview
 
-### Advanced Configuration
+![page preview](./pagepreview.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Deployed Page](https://gthornbuckle-journeyjunkies.netlify.app/)
 
-### Deployment
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For any questions relating to this project please contact using the following links:
 
-### `npm run build` fails to minify
+GitHub: [gthornbuckle](https://github.com/gthornbuckle/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: gthornbuckle@gmail.com
